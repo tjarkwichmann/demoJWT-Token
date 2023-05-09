@@ -1,0 +1,16 @@
+Spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/studyManager
+    username: root
+    password: luebeck12
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      show-sql: true
+    properties:
+      hibernate:
+        format-sql: true
+      database: mysql
+      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+
