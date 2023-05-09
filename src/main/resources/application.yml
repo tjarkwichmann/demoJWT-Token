@@ -1,8 +1,8 @@
 Spring:
   datasource:
     url: jdbc:mysql://localhost:3306/studyManager
-    username: root
-    password: luebeck12
+    username:
+    password:
   jpa:
     hibernate:
       ddl-auto: create-drop
